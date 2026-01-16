@@ -1,0 +1,1 @@
+This video demonstrates a simple calculator allowing users to perform basic arithmetic operations—addition, subtraction, multiplication, and division—with a clean, dark-themed graphical interface. It also includes input validation, error handling (such as division by zero), and a clear button for better usability.
