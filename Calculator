@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
-# Functions
+# calculate function
 def calculate(operation):
     try:
         num1 = float(entry_num1.get())
@@ -24,6 +24,7 @@ def calculate(operation):
     except ValueError:
         messagebox.showerror("Error", "Please enter valid numbers")
 
+# clear function
 def clear_fields():
     entry_num1.delete(0, tk.END)
     entry_num2.delete(0, tk.END)
